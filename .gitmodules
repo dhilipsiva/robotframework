@@ -1,0 +1,3 @@
+[submodule "QuickStartGuide"]
+	path = QuickStartGuide
+	url = git@github.com:robotframework/QuickStartGuide.git
