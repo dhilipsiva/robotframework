@@ -4,6 +4,11 @@ Documentation    This is a sample robot file with multiple
 Library    lib/SampleLib.py
 
 
+*** Variables ***
+@{PARAMS}    param1    param2
+
+
 *** Test Case ***
 Testing the Sample Lib
-    Sample Echo    param1    param2
+    [Tags]    tag1    tag2
+    Sample Echo    @{PARAMS}
